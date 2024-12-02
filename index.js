@@ -1,5 +1,8 @@
+const notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#"];
+const notesAudio []
+
 function playNote() {
-    let sound = new Audio(assets/sounds/notes/c4.mp3);
+    let sound = Audio(assets/sounds/notes/c4.mp3);
     sound.play()
     document.getElementById("C-note").addEventListener("click", playNote);
 }
