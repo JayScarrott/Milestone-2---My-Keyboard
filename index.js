@@ -1,22 +1,28 @@
 const notes = {
-    "C": "assets/sounds/notes/c4.mp3", 
-    "C#": "assets/sounds/notes/c4#.mp3", 
-    "D": "assets/sounds/notes/d5.mp3", 
-    "D#": "assets/sounds/notes/d5#.mp3", 
-    "E": "assets/sounds/notes/e5.mp3", 
-    "F": "assets/sounds/notes/f5.mp3", 
-    "F#": "assets/sounds/notes/f5#.mp3", 
-    "G": "assets/sounds/notes/g5.mp3", 
-    "G#": "assets/sounds/notes/g5#.mp3", 
-    "A": "assets/sounds/notes/a5.mp3", 
-    "A#": "assets/sounds/notes/a5#.mp3", 
-    "B": "assets/sounds/notes/b5.mp3", 
+    "C-note": "assets/sounds/notes/c4.mp3", 
+    "C#-note": "assets/sounds/notes/c4#.mp3", 
+    "D-note": "assets/sounds/notes/d5.mp3", 
+    "D#-note": "assets/sounds/notes/d5#.mp3", 
+    "E-note": "assets/sounds/notes/e5.mp3", 
+    "F-note": "assets/sounds/notes/f5.mp3", 
+    "F#-note": "assets/sounds/notes/f5#.mp3", 
+    "G-note": "assets/sounds/notes/g5.mp3", 
+    "G#-note": "assets/sounds/notes/g5#.mp3", 
+    "A-note": "assets/sounds/notes/a5.mp3", 
+    "A#-note": "assets/sounds/notes/a5#.mp3", 
+    "B-note": "assets/sounds/notes/b5.mp3", 
 };
 
 function playNote() {
-    let sound = Audio(assets/sounds/notes/c4.mp3);
+    console.log("Button clicked:", this.id);
+    const soundPath = notes[this.id];
+    const sound = new Audio(soundPath)
     sound.play()
     
 }
 
-document.getElementById("C-note")[0].addEventListener("click", playNote);
+const noteButtons = document.querySelectorAll("button");
+
+noteButtons.forEach(function(button) {
+    button.addEventListener("click", playNote);
+});
