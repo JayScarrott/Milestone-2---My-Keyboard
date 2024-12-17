@@ -1,3 +1,5 @@
+console.log("JavaScript file loaded!");
+
 const notes = {
     "C-note": "assets/sounds/notes/c4.mp3", 
     "C#-note": "assets/sounds/notes/c4#.mp3", 
