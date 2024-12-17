@@ -1,7 +1,7 @@
 console.log("JavaScript file loaded!");
 
 const notes = {
-    "C-note": "...assets/sounds/notes/octave-1/c3.mp3", 
+    "C-note": "assets/sounds/notes/a-3.mp3", 
     "C-sharp-note": "assets/sounds/notes/octave-1/c-3.mp3", 
     "D-note": "assets/sounds/notes/octave-1/d3.mp3", 
     "D-sharp-note": "assets/sounds/notes/octave-1/d-3.mp3", 
@@ -12,8 +12,7 @@ const notes = {
     "G-sharp-note": "assets/sounds/notes/octave-1/g-3.mp3", 
     "A-note": "assets/sounds/notes/octave-1/a4.mp3", 
     "A-sharp-note": "assets/sounds/notes/octave-1/a-4.mp3", 
-    "B-note": "assets/sounds/notes/octave-1/b4.mp3",
-    "C2-note": "assets/sounds/notes/octave-1/c4.mp3",  
+    "B-note": "assets/sounds/notes/octave-1/b4.mp3", 
 };
 
 function playNote() {
