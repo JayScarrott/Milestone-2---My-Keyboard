@@ -36,7 +36,8 @@ body {
 #C-note { left: 0px; }
 #D-note { left: 154.2px; }
 #E-note { left: 308.4px; }
-#F-note { left: 462.6px; }
+#F-note { left: 462.6px;
+text-indent: -17px;}
 #G-note { left: 616.8px; }
 #A-note { left: 771px; }
 #B-note { left: 925.2px; }
