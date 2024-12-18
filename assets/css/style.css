@@ -20,7 +20,6 @@ body {
     height: 398px; 
     background-color: transparent; 
     
-    border-color: red;
 }
 
 .black-key {
@@ -31,7 +30,6 @@ body {
     background-color: transparent; 
     
     color: white;
-    border-color: white;
 }
 
 
@@ -44,7 +42,7 @@ body {
 #B-note { left: 925.2px; }
 
 #C-sharp-note { left: 88px; }
-#D-sharp-note { left: 269.2px; }
-#F-sharp-note { left: 577px; }
-#G-sharp-note { left: 731px; }
-#A-sharp-note { left: 885px; }
+#D-sharp-note { left: 267px; }
+#F-sharp-note { left: 536px; }
+#G-sharp-note { left: 714px; }
+#A-sharp-note { left: 893px; }
