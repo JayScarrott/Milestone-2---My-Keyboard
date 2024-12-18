@@ -4,9 +4,9 @@ body {
 
 #keyboard {
     background-image: url(/assets/images/notes/piano-img-big.webp);
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
-    position: relative; 
+    position: relative;
     margin: auto;
     width: 1080px;
     height: 398px;
@@ -14,36 +14,70 @@ body {
 
 
 .white-key {
-    position: absolute; 
-    bottom: 0; 
-    width: 154.2px; 
-    height: 398px; 
-    background-color: transparent; 
+    position: absolute;
+    bottom: 0;
+    width: 154.2px;
+    height: 398px;
+    background-color: transparent;
     border: none;
 }
 
 .black-key {
-    position: absolute; 
-    bottom: 164px; 
-    width: 100px; 
-    height: 231px; 
-    background-color: transparent; 
+    position: absolute;
+    bottom: 164px;
+    width: 100px;
+    height: 231px;
+    background-color: transparent;
     border: none;
     color: white;
 }
 
 
-#C-note { left: 0px; }
-#D-note { left: 154.2px; }
-#E-note { left: 308.4px; }
-#F-note { left: 462.6px;
-text-indent: -17px;}
-#G-note { left: 616.8px; }
-#A-note { left: 771px; }
-#B-note { left: 925.2px; }
+#C-note {
+    left: 0px;
+}
 
-#C-sharp-note { left: 88px; }
-#D-sharp-note { left: 267px; }
-#F-sharp-note { left: 536px; }
-#G-sharp-note { left: 714px; }
-#A-sharp-note { left: 893px; }
+#D-note {
+    left: 154.2px;
+}
+
+#E-note {
+    left: 308.4px;
+}
+
+#F-note {
+    left: 462.6px;
+    text-indent: -17px;
+}
+
+#G-note {
+    left: 616.8px;
+}
+
+#A-note {
+    left: 771px;
+}
+
+#B-note {
+    left: 925.2px;
+}
+
+#C-sharp-note {
+    left: 88px;
+}
+
+#D-sharp-note {
+    left: 267px;
+}
+
+#F-sharp-note {
+    left: 536px;
+}
+
+#G-sharp-note {
+    left: 714px;
+}
+
+#A-sharp-note {
+    left: 893px;
+}
