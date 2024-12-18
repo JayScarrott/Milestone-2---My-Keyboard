@@ -3,7 +3,7 @@ body {
 }
 
 #keyboard {
-    background-image: url(assets/images/notes/piano-img-big.webp);
+    background-image: url(/assets/images/notes/piano-img-big.webp);
     background-size: contain;
     background-position: center;
     position: relative;
@@ -27,4 +27,9 @@ body {
     width: 100px;
     height: 220px;
     
+}
+
+#black-keys-container {
+    width: 1080px;
+    height: 398px;
 }
