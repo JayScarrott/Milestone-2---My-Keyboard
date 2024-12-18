@@ -3,5 +3,5 @@ body {
 }
 
 .keyboard {
-    background-image: url(assets/images/notes/piano-img-big.webp);
+    background: url(assets/images/notes/piano-img-big.webp);
 }
