@@ -15,7 +15,9 @@ const notes = {
     "B-note": "assets/sounds/notes/octave-1/b4.mp3", 
 };
 
-
+/**
+ * Fucntion for the buttons playing the notes
+ */
 
 function playNote() {
     console.log("Button clicked:", this.id);
