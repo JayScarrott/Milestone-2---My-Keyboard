@@ -19,17 +19,17 @@ body {
     width: 154.2px; 
     height: 398px; 
     background-color: transparent; 
-    border: none;
+    
     border-color: red;
 }
 
 .black-key {
     position: absolute; 
-    bottom: 178px; 
+    bottom: 164px; 
     width: 100px; 
-    height: 220px; 
+    height: 231px; 
     background-color: transparent; 
-    border: none; 
+    
     color: white;
     border-color: white;
 }
@@ -43,7 +43,7 @@ body {
 #A-note { left: 771px; }
 #B-note { left: 925.2px; }
 
-#C-sharp-note { left: 115px; }
+#C-sharp-note { left: 88px; }
 #D-sharp-note { left: 269.2px; }
 #F-sharp-note { left: 577px; }
 #G-sharp-note { left: 731px; }
