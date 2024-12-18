@@ -19,7 +19,7 @@ body {
     width: 154.2px; 
     height: 398px; 
     background-color: transparent; 
-    
+    border: none;
 }
 
 .black-key {
@@ -28,7 +28,7 @@ body {
     width: 100px; 
     height: 231px; 
     background-color: transparent; 
-    
+    border: none;
     color: white;
 }
 
