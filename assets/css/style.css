@@ -2,16 +2,28 @@ body {
     background-color: pink;
 }
 
-.keyboard {
-    background: url(assets/images/notes/piano-img-big.webp);
+#keyboard {
+    background-image: url(../assets/images/notes/piano-img-big.webp);
+    background-size: contain;
+    position: relative;
+    margin: auto;
+    width: 1080px;
+    height: 398px;
 }
 
-.white-keys {
+#white-keys-container {
+    width: 1080px;
+    height: 398px;
+}
+
+.white-key {
     width: 154.2px;
-    height: 200px;
+    height: 398px;
+    
 }
 
-#white-keys {
-    height: 200px;
-    width: 150px;
+.black-key {
+    width: 100px;
+    height: 220px;
+    
 }
