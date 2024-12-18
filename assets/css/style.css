@@ -3,8 +3,9 @@ body {
 }
 
 #keyboard {
-    background-image: url(../assets/images/notes/piano-img-big.webp);
+    background-image: url(assets/images/notes/piano-img-big.webp);
     background-size: contain;
+    background-position: center;
     position: relative;
     margin: auto;
     width: 1080px;
