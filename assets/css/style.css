@@ -1,3 +1,7 @@
 body {
     background-color: pink;
 }
+
+.keyboard {
+    background-image: url(assets/images/notes/piano-img-big.webp);
+}
