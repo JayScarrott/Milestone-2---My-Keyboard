@@ -1,35 +1,50 @@
 body {
-    background-color: pink;
+    background-color: aquamarine;
 }
 
 #keyboard {
     background-image: url(/assets/images/notes/piano-img-big.webp);
-    background-size: contain;
+    background-size: cover; 
     background-position: center;
-    position: relative;
+    position: relative; 
     margin: auto;
     width: 1080px;
     height: 398px;
 }
 
-#white-keys-container {
-    width: 1080px;
-    height: 398px;
-}
 
 .white-key {
-    width: 154.2px;
-    height: 398px;
-    
+    position: absolute; 
+    bottom: 0; 
+    width: 154.2px; 
+    height: 398px; 
+    background-color: transparent; 
+    border: none;
+    border-color: red;
 }
 
 .black-key {
-    width: 100px;
-    height: 220px;
-    
+    position: absolute; 
+    bottom: 178px; 
+    width: 100px; 
+    height: 220px; 
+    background-color: transparent; 
+    border: none; 
+    color: white;
+    border-color: white;
 }
 
-#black-keys-container {
-    width: 1080px;
-    height: 398px;
-}
+
+#C-note { left: 0px; }
+#D-note { left: 154.2px; }
+#E-note { left: 308.4px; }
+#F-note { left: 462.6px; }
+#G-note { left: 616.8px; }
+#A-note { left: 771px; }
+#B-note { left: 925.2px; }
+
+#C-sharp-note { left: 115px; }
+#D-sharp-note { left: 269.2px; }
+#F-sharp-note { left: 577px; }
+#G-sharp-note { left: 731px; }
+#A-sharp-note { left: 885px; }
