@@ -6,3 +6,12 @@ body {
     background: url(assets/images/notes/piano-img-big.webp);
 }
 
+.white-keys {
+    width: 154.2px;
+    height: 200px;
+}
+
+#white-keys {
+    height: 200px;
+    width: 150px;
+}
