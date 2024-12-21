@@ -32,3 +32,12 @@ const noteButtons = document.querySelectorAll("button");
 noteButtons.forEach(function (button) {
     button.addEventListener("click", playNote);
 });
+
+document.getElementById('submitName').addEventListener('click', function() {
+    const userName = document.getElementById('userName').value;
+    if (userName) {
+        document.getElementById('userGreeting').textContent = `Welcome, ${userName}!`;
+    } else {
+        document.getElementById('userGreeting').textContent = 'Please enter your name.';
+    }
+});
