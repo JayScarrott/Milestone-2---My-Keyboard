@@ -36,7 +36,7 @@ noteButtons.forEach(function (button) {
 document.getElementById('submitName').addEventListener('click', function() {
     const userName = document.getElementById('userName').value;
     if (userName) {
-        document.getElementById('userGreeting').textContent = `Welcome, ${userName}!`;
+        document.getElementById('userGreeting').textContent = `Welcome, ${userName}, to My Keyboard`;
     } else {
         document.getElementById('userGreeting').textContent = 'Please enter your name.';
     }
