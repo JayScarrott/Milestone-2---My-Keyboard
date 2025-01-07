@@ -56,7 +56,8 @@ The target audience for My Keyboard could be genuinely anyone, I believe. Maybe 
 
 #### Client Goals
 
-
+* Accessible introduction to music
+* 
 
 #### First Time Visitor Goals
 
