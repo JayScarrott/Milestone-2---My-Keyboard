@@ -43,6 +43,9 @@ The idea for this website is to create a fun and interactive way to learn about 
 
 ### Initial Discussion
 
+When I first had the idea of creating an interactive keyboard, I didn't really think much of it, but when having a planning meeting with my tutor, Graeme Taylor, he was very fond of the idea, and said it was a unique idea with a lot of potential.
+
+Graeme pointed out very quickly that keyboard could be used for educational purposes, but I still wanted it to be used for fun and creativity as well, Graeme then pointed out that it's possible to do both.
 
 
 ### User Stories
