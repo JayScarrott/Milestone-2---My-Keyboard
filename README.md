@@ -52,7 +52,7 @@ Graeme pointed out very quickly that keyboard could be used for educational purp
 
 #### Target Audience
 
-
+The target audience for My Keyboard could be genuinely anyone, I believe. Maybe they've got a few minutes to kill and want to mess about on a keyboard, maybe they're curious about music, and this is a good entry point.
 
 #### Client Goals
 
