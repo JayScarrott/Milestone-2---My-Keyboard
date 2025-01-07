@@ -61,10 +61,10 @@ The target audience for My Keyboard could be genuinely anyone, I believe. Maybe 
 
 #### First Time Visitor Goals
 
-
+* An accessible way to learn about the notes on a piano
+* Have fun messing around with the keyboard
 
 #### Returning Visitor Goals
-
 
 
 ## Design
