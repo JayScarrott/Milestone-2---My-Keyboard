@@ -1,4 +1,4 @@
-# My Kyyboard
+# My Keyboard
 The idea for this website is to create a fun and interactive way to learn about pianos and keyboards, as well as a bit of music theory in general.
 
 [View the Mr Johnson Website here](https://jayscarrott.github.io/Milestone-2---My-Keyboard/)
